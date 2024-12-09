@@ -409,7 +409,15 @@ img {
   justify-self: center;
 }
 /*=============== FAVORITES ===============*/
+.favorite__container{
+  padding-top: 3.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem 1.5rem;
+}
 
+.favorite__card{
+  position: relative;
+}
 
 /*=============== VISIT ===============*/
 
